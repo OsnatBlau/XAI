@@ -1,7 +1,7 @@
 """
-A directed graph is formulated, with weights assigned according to probabilities. 
+An undirected graph is formulated, with weights assigned according to probabilities. 
 Subsequently, a hierarchy of graphs is established based on percentiles. 
-Connectivity is determined through strongly connected components within the graph.
+Connectivity is determined through Union-Find within the graph and shortest-paths metric.
 """
 
 !pip install tensorflow
